@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Language Translation Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Language Translation Tool</h1>
+        <div class="translation-area">
+            <textarea id="sourceText" placeholder="Type text to translate..." rows="4"></textarea>
+            <select id="languageSelect">
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="zh-CN">Chinese</option>
+                <option value="ja">Japanese</option>
+            </select>
+            <button id="translateButton">Translate</button>
+        </div>
+        <div class="result-area">
+            <h2>Translation:</h2>
+            <p id="translatedText"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Instructions to Run the App
+    Set Up Environment:
+    
+    Create a new folder and save the above three files (index.html, styles.css, script.js) in it.
+    Get API Key:
+    
+    Sign up for the Google Cloud Platform and enable the Translation API.
+    Obtain your API key and replace YOUR_GOOGLE_TRANSLATE_API_KEY in script.js with the actual key.
+    Open in Browser:
+    
+    Open index.html in your web browser -->
+</body>
+</html>
